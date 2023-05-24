@@ -1,6 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
+/* Móviles */
+@media (max-width: 767px) {
+  .caja {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* Medianos */
+@media (min-width: 768px) and (max-width: 991px) {
+  .caja {
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    background-color: blue;
+    border: 2px dotted black;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
+/* Sobremesa */
+@media (min-width: 992px) {
+  .caja {
+    width: 30%;
+    padding: 15px;
+    margin: 5px;
+    background-color: orange;
+    border: 2px dotted black;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }
